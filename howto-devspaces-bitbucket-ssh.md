@@ -3,6 +3,9 @@
 ## Prerequisites
 
 * Create a personal private/public ssh key pair
+
+> **IMPORTANT:** for use with DevSpaces, the ssh key ***MUST NOT*** have a passphrase, otherwise automatic checkout of the Git/Bitbucket repository by the DevSpaces workspaces will fail
+
 * upload the public key to your user in Bitbucket
 
 ## Configuration Steps for DevSpaces
